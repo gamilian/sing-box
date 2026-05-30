@@ -47,10 +47,10 @@ E[3]="Input errors up to 5 times.The script is aborted."
 C[3]="输入错误达5次,脚本退出"
 E[4]="UUID should be 36 characters, please re-enter (\${UUID_ERROR_TIME} times remaining):"
 C[4]="UUID 应为36位字符,请重新输入 (剩余\${UUID_ERROR_TIME}次):"
-E[5]="The script supports Debian, Ubuntu, CentOS, Alpine, Armbian, Fedora or Arch systems only. Feedback: [https://github.com/fscarmen/sing-box/issues]"
-C[5]="本脚本只支持 Debian、Ubuntu、CentOS、Alpine、Armbian、Fedora 或 Arch 系统,问题反馈:[https://github.com/fscarmen/sing-box/issues]"
-E[6]="Curren operating system is \$SYS.\\\n The system lower than \$SYSTEM \${MAJOR[int]} is not supported. Feedback: [https://github.com/fscarmen/sing-box/issues]"
-C[6]="当前操作是 \$SYS\\\n 不支持 \$SYSTEM \${MAJOR[int]} 以下系统,问题反馈:[https://github.com/fscarmen/sing-box/issues]"
+E[5]="The script supports Debian, Ubuntu, CentOS, Alpine, Armbian, Fedora or Arch systems only. Feedback: [https://github.com/gamilian/sing-box/issues]"
+C[5]="本脚本只支持 Debian、Ubuntu、CentOS、Alpine、Armbian、Fedora 或 Arch 系统,问题反馈:[https://github.com/gamilian/sing-box/issues]"
+E[6]="Curren operating system is \$SYS.\\\n The system lower than \$SYSTEM \${MAJOR[int]} is not supported. Feedback: [https://github.com/gamilian/sing-box/issues]"
+C[6]="当前操作是 \$SYS\\\n 不支持 \$SYSTEM \${MAJOR[int]} 以下系统,问题反馈:[https://github.com/gamilian/sing-box/issues]"
 E[7]="Install dependence-list:"
 C[7]="安装依赖列表:"
 E[8]="All dependencies already exist and do not need to be installed additionally."
@@ -87,8 +87,8 @@ E[23]="Virtualization"
 C[23]="虚拟化"
 E[24]="Choose:"
 C[24]="请选择:"
-E[25]="Curren architecture \$(uname -m) is not supported. Feedback: [https://github.com/fscarmen/sing-box/issues]"
-C[25]="当前架构 \$(uname -m) 暂不支持,问题反馈:[https://github.com/fscarmen/sing-box/issues]"
+E[25]="Curren architecture \$(uname -m) is not supported. Feedback: [https://github.com/gamilian/sing-box/issues]"
+C[25]="当前架构 \$(uname -m) 暂不支持,问题反馈:[https://github.com/gamilian/sing-box/issues]"
 E[26]="Not install"
 C[26]="未安装"
 E[27]="close"
@@ -121,20 +121,20 @@ E[40]="Sing-box local verion: \$LOCAL\\\t The newest verion: \$ONLINE"
 C[40]="Sing-box 本地版本: \$LOCAL\\\t 最新版本: \$ONLINE"
 E[41]="No upgrade required."
 C[41]="不需要升级"
-E[42]="Downloading the latest version Sing-box failed, script exits. Feedback:[https://github.com/fscarmen/sing-box/issues]"
-C[42]="下载最新版本 Sing-box 失败，脚本退出，问题反馈:[https://github.com/fscarmen/sing-box/issues]"
-E[43]="The script must be run as root, you can enter sudo -i and then download and run again. Feedback:[https://github.com/fscarmen/sing-box/issues]"
-C[43]="必须以root方式运行脚本，可以输入 sudo -i 后重新下载运行，问题反馈:[https://github.com/fscarmen/sing-box/issues]"
+E[42]="Downloading the latest version Sing-box failed, script exits. Feedback:[https://github.com/gamilian/sing-box/issues]"
+C[42]="下载最新版本 Sing-box 失败，脚本退出，问题反馈:[https://github.com/gamilian/sing-box/issues]"
+E[43]="The script must be run as root, you can enter sudo -i and then download and run again. Feedback:[https://github.com/gamilian/sing-box/issues]"
+C[43]="必须以root方式运行脚本，可以输入 sudo -i 后重新下载运行，问题反馈:[https://github.com/gamilian/sing-box/issues]"
 E[44]="Ports are in used:  \${IN_USED[*]}"
 C[44]="正在使用中的端口: \${IN_USED[*]}"
 E[45]="Ports used: \${NOW_START_PORT} - \$((NOW_START_PORT+NOW_CONSECUTIVE_PORTS-1))"
 C[45]="使用端口: \${NOW_START_PORT} - \$((NOW_START_PORT+NOW_CONSECUTIVE_PORTS-1))"
 E[46]="Warp / warp-go was detected to be running. Please enter the correct server IP:"
 C[46]="检测到 warp / warp-go 正在运行，请输入确认的服务器 IP:"
-E[47]="No server ip, script exits. Feedback:[https://github.com/fscarmen/sing-box/issues]"
-C[47]="没有 server ip，脚本退出，问题反馈:[https://github.com/fscarmen/sing-box/issues]"
-E[48]="ShadowTLS - Copy the above two Neko links and manually set up the chained proxies in order. Tutorial: https://github.com/fscarmen/sing-box/blob/main/README.md#sekobox-%E8%AE%BE%E7%BD%AE-shadowtls-%E6%96%B9%E6%B3%95"
-C[48]="ShadowTLS - 复制上面两条 Neko links 进去，并按顺序手动设置链式代理，详细教程: https://github.com/fscarmen/sing-box/blob/main/README.md#sekobox-%E8%AE%BE%E7%BD%AE-shadowtls-%E6%96%B9%E6%B3%95"
+E[47]="No server ip, script exits. Feedback:[https://github.com/gamilian/sing-box/issues]"
+C[47]="没有 server ip，脚本退出，问题反馈:[https://github.com/gamilian/sing-box/issues]"
+E[48]="ShadowTLS - Copy the above two Neko links and manually set up the chained proxies in order. Tutorial: https://github.com/gamilian/sing-box/blob/main/README.md#sekobox-%E8%AE%BE%E7%BD%AE-shadowtls-%E6%96%B9%E6%B3%95"
+C[48]="ShadowTLS - 复制上面两条 Neko links 进去，并按顺序手动设置链式代理，详细教程: https://github.com/gamilian/sing-box/blob/main/README.md#sekobox-%E8%AE%BE%E7%BD%AE-shadowtls-%E6%96%B9%E6%B3%95"
 E[49]="Select more protocols to install (e.g. hgbd). The order of the port numbers of the protocols is related to the ordering of the multiple choices:\n a. all (default)"
 C[49]="多选需要安装协议(比如 hgbd)，协议的端口号次序与多选的排序有关:\n a. all (默认)"
 E[50]="Please enter the \$TYPE domain name:"
@@ -199,8 +199,8 @@ E[79]="Please enter the port number of nginx. Must be \${MIN_PORT} - \${MAX_PORT
 C[79]="请输入 nginx 端口号，必须是 \${MIN_PORT} - \${MAX_PORT} (默认为: \${PORT_NGINX_DEFAULT}):"
 E[80]="subscribe"
 C[80]="订阅"
-E[81]="Adaptive Clash / V2rayN / Throne / ShadowRocket / SFI / SFA / SFM Clients"
-C[81]="自适应 Clash / V2rayN / Throne / ShadowRocket / SFI / SFA / SFM 客户端"
+E[81]="Adaptive Clash / V2rayN / Throne / ShadowRocket / Surge / SFI / SFA / SFM Clients"
+C[81]="自适应 Clash / V2rayN / Throne / ShadowRocket / Surge / SFI / SFA / SFM 客户端"
 E[82]="template"
 C[82]="模版"
 E[83]="To uninstall Nginx press [y], it is not uninstalled by default:"
@@ -223,8 +223,8 @@ E[91]="Argo tunnel type:\n 1. Try\n 2. Token or Json. Including created through 
 C[91]="Argo 隧道类型:\n 1. Try\n 2. Token 或者 Json，包括通过 Cloudflare API 创建"
 E[92]="Change the Argo tunnel (sb -t)"
 C[92]="更换 Argo 隧道 (sb -t)"
-E[93]="Can't get the temporary tunnel domain, script exits. Feedback:[https://github.com/fscarmen/sing-box/issues]"
-C[93]="获取不到临时隧道的域名，脚本退出，问题反馈:[https://github.com/fscarmen/sing-box/issues]"
+E[93]="Can't get the temporary tunnel domain, script exits. Feedback:[https://github.com/gamilian/sing-box/issues]"
+C[93]="获取不到临时隧道的域名，脚本退出，问题反馈:[https://github.com/gamilian/sing-box/issues]"
 E[94]="Please bind \[\${ARGO_DOMAIN}] tunnel TYPE to HTTP and URL to \[\localhost:\${PORT_NGINX}] in Cloudflare."
 C[94]="请在 Cloudflare 绑定 \[\${ARGO_DOMAIN}] 隧道 TYPE 为 HTTP，URL 为 \[\localhost:\${PORT_NGINX}]"
 E[95]="netfilter-persistent installation failed, but the installation progress will not stop. portHopping forwarding rules are temporary rules, reboot may be invalidated."
@@ -3216,6 +3216,7 @@ http {
     ~*clash                    /clash;          # 匹配 Clash 客户端
     ~*Neko|Throne              /neko;           # 匹配 Neko / Throne 客户端
     ~*ShadowRocket             /shadowrocket;   # 匹配 ShadowRocket 客户端
+    ~*Surge                    /surge;          # 匹配 Surge 客户端
     ~*SFM|SFI|SFA              /sing-box;       # 匹配 Sing-box 官方客户端
 #   ~*Chrome|Firefox|Mozilla   /;               # 添加更多的分流规则
   }
@@ -3225,6 +3226,7 @@ http {
     ~*clash                    /clash2;         # 匹配 Clash 客户端
     ~*Neko|Throne              /neko;           # 匹配 Neko 客户端
     ~*ShadowRocket             /shadowrocket;   # 匹配 ShadowRocket 客户端
+    ~*Surge                    /surge;          # 匹配 Surge 客户端
     ~*SFM|SFI|SFA              /sing-box;       # 匹配 Sing-box 官方客户端
 #   ~*Chrome|Firefox|Mozilla   /;               # 添加更多的分流规则
   }"
@@ -4572,6 +4574,74 @@ export_list() {
     rm -f ${TEMP_DIR}/clash{,2}
   } &>/dev/null
 
+  # 生成 Surge 托管配置和 policy-path 外部策略列表。只导出当前 Surge 官方语法明确支持且与本脚本服务端兼容的协议。
+  local SURGE_PROXIES="" SURGE_PROXY_NAMES="" SURGE_PROXY_GROUP="DIRECT"
+  append_surge_proxy() {
+    local proxy_name=$1
+    local proxy_line=$2
+    SURGE_PROXIES+="${proxy_line}
+"
+    SURGE_PROXY_NAMES+="${SURGE_PROXY_NAMES:+, }${proxy_name}"
+  }
+
+  if [ -n "$PORT_HYSTERIA2" ]; then
+    local SURGE_HYSTERIA2_NAME="${NODE_NAME[12]} ${NODE_TAG[1]}"
+    local SURGE_HYSTERIA2_OPTS="password=${UUID[12]}, sni=${TLS_SERVER}, server-cert-fingerprint-sha256=${SELF_SIGNED_FINGERPRINT_SHA256}, download-bandwidth=${HY2_DOWN}, udp-relay=true"
+    [[ -n "$PORT_HOPPING_START" && -n "$PORT_HOPPING_END" ]] && SURGE_HYSTERIA2_OPTS+=", port-hopping=${PORT_HOPPING_START}-${PORT_HOPPING_END}, port-hopping-interval=30"
+    append_surge_proxy "$SURGE_HYSTERIA2_NAME" "$SURGE_HYSTERIA2_NAME = hysteria2, ${SERVER_IP_1}, ${PORT_HYSTERIA2}, ${SURGE_HYSTERIA2_OPTS}"
+  fi
+
+  # Surge export skips sing-box TUIC v5: Surge uses proxy type "tuic" with token=, not uuid/password authentication.
+
+  [ -n "$PORT_SHADOWTLS" ] && [[ "$SHADOWTLS_METHOD" != 2022-* ]] && {
+    local SURGE_SHADOWTLS_NAME="${NODE_NAME[14]} ${NODE_TAG[3]}"
+    append_surge_proxy "$SURGE_SHADOWTLS_NAME" "$SURGE_SHADOWTLS_NAME = ss, ${SERVER_IP_1}, ${PORT_SHADOWTLS}, encrypt-method=${SHADOWTLS_METHOD}, password=${SHADOWTLS_PASSWORD}, shadow-tls-password=${UUID[14]}, shadow-tls-sni=${TLS_SERVER}, shadow-tls-version=3, udp-relay=true"
+  }
+
+  [ -n "$PORT_SHADOWSOCKS" ] && [[ "$SHADOWSOCKS_METHOD" != 2022-* ]] && {
+    local SURGE_SHADOWSOCKS_NAME="${NODE_NAME[15]} ${NODE_TAG[4]}"
+    append_surge_proxy "$SURGE_SHADOWSOCKS_NAME" "$SURGE_SHADOWSOCKS_NAME = ss, ${SERVER_IP_1}, ${PORT_SHADOWSOCKS}, encrypt-method=${SHADOWSOCKS_METHOD}, password=${SHADOWSOCKS_PASSWORD}, udp-relay=true"
+  }
+
+  [ -n "$PORT_TROJAN" ] && {
+    local SURGE_TROJAN_NAME="${NODE_NAME[16]} ${NODE_TAG[5]}"
+    append_surge_proxy "$SURGE_TROJAN_NAME" "$SURGE_TROJAN_NAME = trojan, ${SERVER_IP_1}, ${PORT_TROJAN}, password=${TROJAN_PASSWORD}, sni=${TLS_SERVER}, server-cert-fingerprint-sha256=${SELF_SIGNED_FINGERPRINT_SHA256}, udp-relay=true"
+  }
+
+  if [ -n "$PORT_VMESS_WS" ]; then
+    local SURGE_VMESS_CDN_PORT=${CDN_PORT[17]:-80}
+    local SURGE_VMESS_CDN_HOST=$(format_uri_host "${CDN[17]}")
+    local SURGE_VMESS_WS_HOST
+    if [[ "${STATUS[1]}" =~ $(text 27)|$(text 28) ]] || [[ "$IS_ARGO" = 'is_argo' && "$NONINTERACTIVE_INSTALL" = 'noninteractive_install' ]]; then
+      SURGE_VMESS_WS_HOST=$ARGO_DOMAIN
+    else
+      SURGE_VMESS_WS_HOST=$VMESS_HOST_DOMAIN
+    fi
+    local SURGE_VMESS_NAME="${NODE_NAME[17]} ${NODE_TAG[6]}"
+    append_surge_proxy "$SURGE_VMESS_NAME" "$SURGE_VMESS_NAME = vmess, ${SURGE_VMESS_CDN_HOST}, ${SURGE_VMESS_CDN_PORT}, username=${UUID[17]}, ws=true, ws-path=/$VMESS_WS_PATH, ws-headers=Host:${SURGE_VMESS_WS_HOST}, vmess-aead=true"
+  fi
+
+  # Surge AnyTLS is version-gated (iOS 5.17.0+ / Mac 6.4.3+), so the default profile skips it to keep imports parseable.
+
+  [ -n "$SURGE_PROXY_NAMES" ] && SURGE_PROXY_GROUP="${SURGE_PROXY_NAMES}, DIRECT"
+  [ -z "$SURGE_PROXIES" ] && SURGE_PROXIES="# No Surge-compatible proxy generated. Supported exports: Hysteria 2, Trojan, VMess WebSocket, and non-SS2022 Shadowsocks/ShadowTLS.
+"
+  echo -n "$SURGE_PROXIES" | sed -E '/^[ ]*#|^--/d' | sed '/^$/d' > ${WORK_DIR}/subscribe/surge-proxies
+  cat > ${WORK_DIR}/subscribe/surge << EOF
+[General]
+loglevel = notify
+dns-server = system, 1.1.1.1, 8.8.8.8
+
+[Proxy]
+$SURGE_PROXIES
+[Proxy Group]
+Proxy = select, ${SURGE_PROXY_GROUP}
+
+[Rule]
+GEOIP,CN,DIRECT
+FINAL,Proxy
+EOF
+
   # 生成 ShadowRocket 订阅配置文件
   [ -n "$PORT_XTLS_REALITY" ] && local SHADOWROCKET_SUBSCRIBE+="
 vless://$(echo -n "auto:${UUID[11]}@${SERVER_IP_2}:${PORT_XTLS_REALITY}" | base64 -w0)?remarks=${NODE_NAME[11]// /%20}%20${NODE_TAG[0]}&tls=1&peer=${TLS_SERVER}&${VISION_OR_MUX_SHADOWROCKET}&pbk=${REALITY_PUBLIC[11]}
@@ -5073,7 +5143,13 @@ SFI / SFA / SFM $(text 80):
 $SUBSCRIBE_ADDRESS/${UUID_CONFIRM}/sing-box
 
 ShadowRocket $(text 80):
-$SUBSCRIBE_ADDRESS/${UUID_CONFIRM}/shadowrocket")
+$SUBSCRIBE_ADDRESS/${UUID_CONFIRM}/shadowrocket
+
+Surge $(text 80):
+$SUBSCRIBE_ADDRESS/${UUID_CONFIRM}/surge
+
+Surge policy-path:
+$SUBSCRIBE_ADDRESS/${UUID_CONFIRM}/surge-proxies")
 
 *******************************************
 
@@ -5108,10 +5184,11 @@ $(${WORK_DIR}/qrencode $SUBSCRIBE_ADDRESS/${UUID_CONFIRM}/auto2)
 
 # 创建快捷方式
 create_shortcut() {
+  mkdir -p ${WORK_DIR}
   cat > ${WORK_DIR}/sb.sh << EOF
 #!/usr/bin/env bash
 
-bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh) \$@
+bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/gamilian/sing-box/main/sing-box.sh) \$@
 EOF
   chmod +x ${WORK_DIR}/sb.sh
   ln -sf ${WORK_DIR}/sb.sh /usr/bin/sb
@@ -5891,6 +5968,7 @@ elif [ "$IS_FAST_INSTALL" = 'is_fast_install' ]; then
   export_list install
   create_shortcut
 else
+  [ "${STATUS[0]}" != "$(text 26)" ] && create_shortcut
   menu_setting
   menu
 fi
